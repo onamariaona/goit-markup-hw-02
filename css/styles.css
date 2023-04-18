@@ -8,6 +8,7 @@
     --bg-hero:#2E2F42;
     --hero-titlle-color:#FFFFFF;
     --bg-button: #4D5AE5;
+    --bg-team:#F4F4FD; 
  } 
 body{
     font-family: 'Roboto', sans-serif;
@@ -69,7 +70,7 @@ color:var(--contact-text-color);
 .hero-tittle {
 font-weight: 700;
 font-size: 56px;
-line-height: 1.7;
+line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color:var(--hero-titlle-color);
@@ -105,4 +106,42 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color:var(--primary-text-color);
 
+}
+.section-title{
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+color:var(--secondary-text-color);
+
+}
+.team{
+    background-color: var(--bg-team);
+
+}
+.team-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color:var(--secondary-text-color);
+
+}
+.team-desc {
+   
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+
+
+color: var(--primary-text-color);
+
+}
+.team-item{
+    background-color: var(--bg-color);
 }
