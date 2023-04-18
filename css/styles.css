@@ -24,7 +24,7 @@ font-size: 18px;
 line-height: 1.16;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--secondary-text-color);
+color: var(--primary-logo-color);
 }
 .logo-header {
     color: var(--secondary-text-color);
