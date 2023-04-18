@@ -160,3 +160,35 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color:var(--logo-footer);
 }
+.portfolio-btn{
+    font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color:var(--bg-button);
+cursor: pointer;
+ background-color:var(--bg-team) ;
+
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+    color: var(--hero-titlle-color);
+    background-color: var(--accent-color);
+}
+.portfolio-title {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color:var(--secondary-text-color);
+
+}
+.portfolio-desc {
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:var(--primary-text-color);
+
+}
