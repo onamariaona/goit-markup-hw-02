@@ -5,6 +5,9 @@
     --accent-color:#404BBF;
     --contact-text-color:#434455;
     --bg-color:#FFFFFF;
+    --bg-hero:#2E2F42;
+    --hero-titlle-color:#FFFFFF;
+    --bg-button: #4D5AE5;
  } 
 body{
     font-family: 'Roboto', sans-serif;
@@ -58,4 +61,48 @@ color:var(--contact-text-color);
 .contact-link:hover,
 .contact-link:focus{
     color:var(--accent-color);
+}
+
+.hero {
+   background-color: var(--bg-hero);
+}
+.hero-tittle {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.7;
+text-align: center;
+letter-spacing: 0.02em;
+color:var(--hero-titlle-color);
+}
+.hero-btn {
+    font-family: 'Roboto',sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+background-color: var(--bg-button);
+color: var(--hero-titlle-color);
+cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: var(--accent-color);
+}
+
+.feature-title {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+
+color:var(--secondary-text-color);
+
+}
+.feature-text {
+ 
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:var(--primary-text-color);
+
 }
