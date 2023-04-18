@@ -9,6 +9,7 @@
     --hero-titlle-color:#FFFFFF;
     --bg-button: #4D5AE5;
     --bg-team:#F4F4FD; 
+    --logo-footer: #F4F4FD;
  } 
 body{
     font-family: 'Roboto', sans-serif;
@@ -144,4 +145,18 @@ color: var(--primary-text-color);
 }
 .team-item{
     background-color: var(--bg-color);
+}
+
+.footer {
+    background-color: var(--bg-hero);
+}
+
+.logo-footer {
+    color: var(--logo-footer);
+}
+.footer-desc { 
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:var(--logo-footer);
 }
